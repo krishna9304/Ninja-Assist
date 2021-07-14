@@ -1,11 +1,12 @@
 {
-  "name": "Ninja-Assist",
+  "name": "Ninja Assist(IoT)",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "start": "node .",
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +15,10 @@
     "@vonage/server-sdk": "^2.10.10",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "barcli": "^0.0.25",
+    "chalk": "^2.1.0",
+    "johnny-five": "^2.1.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
